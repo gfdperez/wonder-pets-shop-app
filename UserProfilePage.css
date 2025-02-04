@@ -1,0 +1,316 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+    position: relative;
+    background-color: var(--background_color_two);
+    min-height: 1513px;
+    width: 100%;
+    min-width: 1440px;
+	max-width: 1440px;
+    margin: auto;
+    border-radius: 0px;
+}
+
+button:hover{
+    opacity: .7;
+}
+
+.profileheader_box {
+    position: absolute;
+    width: 304px;
+    height: 70px;
+    left: 568px;
+    top: 150px;
+
+    background: #4ABCEB;
+    border: 5px solid #02628A;
+    box-shadow: -8px 8px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.profileheader_text {
+    position: absolute;
+    width: 326px;
+    height: 41px;
+    left: -11px;
+    top: 15px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 41px;
+
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.profile_box {
+    position: absolute;
+    width: 1200px;
+    height: 533px;
+    left: 120px;
+    top: 258px;
+
+    background: #FFFFFF;
+    border: 3px solid #6BBDDE;
+    box-sizing: border-box;
+    box-shadow: -6px 6px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.label_email{
+    position: absolute;
+    width: 190px;
+    height: 25px;
+    left: 51px;
+    top: 51px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #0679A9;
+}
+
+.label_lname {
+    position: absolute;
+    width: 190px;
+    height: 25px;
+    left: 51px;
+    top: 102px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #0679A9;
+}
+
+.label_fname {
+    position: absolute;
+    width: 190px;
+    height: 25px;
+    left: 51px;
+    top: 150px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #0679A9;
+}
+
+.label_mobile {
+    position: absolute;
+    width: 190px;
+    height: 25px;
+    left: 51px;
+    top: 198px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #0679A9;
+}
+
+.label_home {
+    position: absolute;
+    width: 190px;
+    height: 25px;
+    left: 51px;
+    top: 245px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #0679A9;
+}
+
+.label_recent {
+    position: absolute;
+    width: 2100px;
+    height: 25px;
+    left: 51px;
+    top: 426px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #0679A9;
+}
+
+.value_email {
+    position: absolute;
+    width: 967px;
+    height: 30px;
+    left: 183px;
+    top: 51px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: right;
+    letter-spacing: 0.1em;
+
+    color: #033F58;
+}
+
+.value_lname {
+    position: absolute;
+    width: 916px;
+    height: 30px;
+    left: 234px;
+    top: 99px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: right;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #033F58;
+}
+
+.value_fname {
+    position: absolute;
+    width: 916px;
+    height: 30px;
+    left: 234px;
+    top: 147px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: right;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #033F58;
+}
+
+.value_mobile {
+    position: absolute;
+    width: 859px;
+    height: 30px;
+    left: 291px;
+    top: 195px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: right;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #033F58;
+}
+
+.value_home {
+    position: absolute;
+    width: 916px;
+    height: 157px;
+    left: 234px;
+    top: 243px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: right;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #033F58;
+}
+
+.value_recent {
+    position: absolute;
+    width: 799px;
+    height: 60px;
+    left: 351px;
+    top: 424px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: right;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #033F58;
+}
+

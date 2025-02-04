@@ -1,0 +1,241 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+    position: relative;
+    background-color: var(--background_color_two);
+    min-height: 1030px;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    border-radius: 0px;
+}
+
+.login_box{
+	position: absolute;
+	width: 565px;
+	height: 536px;
+	left: 438px;
+	top: 244px;
+
+	background: #FFFFFF;
+	border: 2px solid #4ABCEB;
+	box-shadow: 5px 5px 2px rgba(74, 188, 235, 0.25);
+	border-radius: 10px;
+}
+
+.shop_logo {
+	position: absolute;
+ 	width: 110px;
+ 	height: 110px;
+ 	left: 228px;
+	top: 46px;
+}
+
+.input_email {
+	position: absolute;
+	width: 415px;
+	height: 52px;
+	left: 75px;
+	top: 192px;
+
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+.input_pass {
+	position: absolute;
+	width: 415px;
+	height: 52px;
+	left: 75px;
+	top: 260px;
+
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+input {
+	padding: 10px 15px;
+  	margin: 8px 0;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+}
+
+input::placeholder {
+	position: absolute;
+	height: 21px;
+	left: 16px;
+	top: 16px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+	/* identical to box height */
+
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #A2A2A2;
+}
+
+.login_button {
+	position: absolute;
+	width: 204px;
+	height: 49px;
+	left: 180px;
+	top: 381px;
+
+	background: #4ABCEB;
+	border: 1px solid #02628A;
+	box-sizing: border-box;
+	border-radius: 15px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+
+	text-decoration: none;
+}
+
+.signup_button {
+	position: absolute;
+	width: 204px;
+	height: 49px;
+	left: 180px;
+	top: 445px;
+
+	background: #94D8F4;
+	border: 1px solid #02628A;
+	box-sizing: border-box;
+	border-radius: 15px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+}
+
+button:hover{
+	opacity: .7;
+}
+
+.line {
+	position: absolute;
+	width: 315px;
+	height: 0px;
+	left: 563px;
+	top: 981px;
+
+	border: 1px solid #02628A;
+}
+
+.admin {
+	position: absolute;
+	width: 62px;
+	height: 16px;
+	left: 690px;
+	top: 996px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	text-transform: capitalize;
+
+	color: #000000;
+	border: none;
+    background-color: inherit;
+}
+
+.error_box {	
+	position: absolute;
+	width: 393px;
+	height: 31px;
+	left: 85px;
+	top: 335px;
+
+	background: #FFD3D3;
+	border-radius: 5px;
+}
+
+.error_mess {
+	position: absolute;
+	width: 100%;
+	height: 21px;
+	left: 5px;
+	top: 5px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 21px;
+	/* identical to box height */
+
+	text-align: center;
+	text-transform: capitalize;
+	letter-spacing: 0.5px;
+
+	color: #E90202;
+}
+
+.success_box {	
+	position: absolute;
+	width: 393px;
+	height: 31px;
+	left: 85px;
+	top: 335px;
+
+	background: #D3E5FF;
+	border-radius: 5px;
+}
+
+.success_mess {
+	position: absolute;
+	width: 100%;
+	height: 21px;
+	left: 5px;
+	top: 5px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 21px;
+	/* identical to box height */
+
+	text-align: center;
+	text-transform: capitalize;
+	letter-spacing: 0.5px;
+
+	color: #2202E9;
+}

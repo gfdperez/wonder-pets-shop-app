@@ -1,0 +1,121 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+    position: relative;
+    background-color: var(--background_color_two);
+    min-height: 1030px;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    border-radius: 0px;
+}
+
+button:hover{
+    opacity: .7;
+}
+
+.pets_bg {
+    position: absolute;
+    width: 966px;
+    height: 361px;
+    left: 237px;
+    top: 213px;
+
+    background: url(Pets BG.png);
+}
+
+.shopname_box {
+    position: absolute;
+    width: 647px;
+    height: 115px;
+    left: 396px;
+    top: 651px;
+
+    background: #4ABCEB;
+    border: 5px solid #02628A;
+    box-shadow: -8px 8px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.shopname_text {
+    position: absolute;
+    width: 575px;
+    height: 65px;
+    left: 41px;
+    top: 25px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    border: none;
+}
+
+.seepetslist_button {
+    position: absolute;
+    width: 340px;
+    height: 74px;
+    left: 550px;
+    top: 813px;
+
+    background: #02628A;
+    border: 5px solid #FEFEFE;
+    box-shadow: -2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+}
+
+.line {
+    position: absolute;
+    width: 315px;
+    height: 0px;
+    left: 563px;
+    top: 981px;
+
+    border: 1px solid #02628A;
+}
+
+.about {
+    position: absolute;
+    width: 38px;
+    height: 16px;
+    left: 701px;
+    top: 995px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #000000;
+    border: none;
+    background-color: inherit;
+}
